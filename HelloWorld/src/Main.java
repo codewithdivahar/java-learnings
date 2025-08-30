@@ -24,6 +24,24 @@
 
 import java.util.Scanner;
 
+/*
+ * Scanner scanner = new Scanner(System.in)
+ * scanner.nextInt() - Gets Integer number from user
+ * scanner.next() - Gets String from user
+ *
+ * Write a program to concat 2 strings from the user input and display as "Divahar Baskaran"
+ * string 1 firstname
+ * string 2 lastname
+ *
+ * result = first name and lastname
+ * print(result)
+ *
+ * create a class called StringConcat
+ * Then inside main, write the program
+ *
+ *
+ * */
+
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -38,3 +56,4 @@ public class Main {
         return result;
     }
 }
+
